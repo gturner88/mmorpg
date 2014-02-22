@@ -1,0 +1,75 @@
+
+	#result_notice_window {
+		font-size:18pt;
+		display:none;
+		text-align:center;
+		padding:5px;
+		width:300px;
+		border: 2px solid #cccccc;
+		color: #cc0000;
+		background-color:black;
+		position:relative;
+		margin: -400px auto 400px auto;
+		top:125px;
+	}
+	#attacker_name{
+		font-size:14pt;
+		vertical-align:middle;
+		width:245px;
+		border:2px inset;
+		background-color:black;
+	}
+	
+	#defender_name{
+		font-size:14pt;
+		vertical-align:middle;
+		width:245px;
+		border:2px inset;
+		background-color:black;
+	}
+
+	#attacker_window{
+		display:none;
+		text-align:center;
+		padding:5px;
+		border:1px solid #333333;
+		background-color:black;
+		font-weight:bold;
+		font-size:18pt;
+		color:#CC0000;
+	}
+	#defender_window{
+		display:none;
+		text-align:center;
+		padding:5px;
+		border:1px solid #333333;
+		background-color:black;
+		font-weight:bold;
+		font-size:18pt;
+		color:#CC0000;
+	}
+
+	#attacker_health{
+		text-align:center;
+		background-color:#009900;
+		height:15px;
+		width:228px;
+		text-align:center;
+	}
+	#defender_health{
+		text-align:center;
+		background-color:#009900;
+		height:15px;
+		width:228px;
+		text-align:center;
+	}
+
+	#battle_result{
+        padding-bottom:10px;
+		width:767px;
+	}
+	#result_text{
+		font-weight:bold;
+		font-size:12pt;
+		padding-bottom:15px;
+	}
